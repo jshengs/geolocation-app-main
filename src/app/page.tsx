@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <div>
       <div className="h-16 flex flex-col items-center justify-center">
-        <h1 className="text-xl font-semibold">Your current location is</h1>
+        <h1 >Your current location is</h1>
         <p className="text-sm">{address}</p>
       </div>
       <div className="flex justify-center w-full h-[calc(100vh-8rem)]">
