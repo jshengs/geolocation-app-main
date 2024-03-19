@@ -78,7 +78,7 @@ const Login = (props: Props) => {
   return (
     <main className="flex flex-col min-h-screen w-full items-center justify-center">
       <div className="flex flex-col w-96">
-        <h1>Login</h1>
+        <h1 className="text-3xl font-bold mb-4">Login</h1>
         <form
           className="flex flex-col space-y-2"
           onSubmit={handleSubmit(handleLogin)}
